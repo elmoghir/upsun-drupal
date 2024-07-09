@@ -68,11 +68,9 @@ applications:
         web:
             locations:
                 /:
-                    root: build
-                    index:
-                        - index.php
+                    root: 'web'
                     expires: 5m
-                    # passthru: '/index.php'
+                    passthru: '/index.php'
                     allow: false
                     rules:
                         # Allow access to common static files.
