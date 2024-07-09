@@ -7,7 +7,7 @@ applications:
     drupal:
 
         source:
-            root: "drupal"
+            root: "/"
 
         type: "php:8.1"
 
