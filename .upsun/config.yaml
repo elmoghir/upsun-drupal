@@ -68,7 +68,7 @@ applications:
         web:
             locations:
                 /:
-                    root: web
+                    root: build
                     index:
                         - index.php
                     expires: 5m
